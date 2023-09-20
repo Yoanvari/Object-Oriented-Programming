@@ -21,5 +21,9 @@ public class MotorDemo {
 
         motor.matikanMesin();
         motor.printStatus();
+
+        motor.nyalakanMesin();
+        motor.kurangiKecepatan();
+        motor.printStatus();
     }
 }
